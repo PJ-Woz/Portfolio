@@ -1,4 +1,4 @@
-- :wave: Hi, My name is Paweł Woźnikowski
+- :wave: Hi, my name is Paweł Woźnikowski
   - I'm a Polish<->English translator with 9+ years of experience
     - I translate primarily technical texts – installation, operation, and maintenance manuals, guides, and handbooks
   - I live in [Cieszyn](https://en.wikipedia.org/wiki/Cieszyn), [Poland](https://en.wikipedia.org/wiki/Poland)
