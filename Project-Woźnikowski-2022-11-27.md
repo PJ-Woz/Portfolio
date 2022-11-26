@@ -1,9 +1,12 @@
-<!-- Zdaję sobie sprawę, że pewne rzeczy możnaby jeszcze zoptymalizować lub przedstawić inaczej, np. polecenia jak coś zrobić.
-Nie jestem do końca pewien, jak to od strony technicznej zrobić, by to miało postać wikii (po prostu każdy wpis w innym pliku?), dlatego napisałem to "linearnie", jak książkę, więc są odniesienia do poprzednich części skecji -->
+<!-- This is a homework I did during Technical Communication post-grad studies at Vistula University.
+Shout out to @martab0 for teaching us the basics of Markdown.
+I know this could be optimised significantly.
+It's meant to be read like a book, so the progress is linear.
+This is done after 2 hours of training in Markdown -->
 <!-- Example of title -->
 A Very Simple Introduction to Markdown<!-- omit in toc -->
 ===
-<!-- Widzę, że niestety "omit in toc" uniemożliwia przeniesienie za pomocą [Link](#A-Very-Simple-Introduction-to-Markdown), dlatego dalej w tekście jest niedziałające odniesienie -->
+<!-- Unfortunately, "omit in toc" still makes it impossible to link [Link](#A-Very-Simple-Introduction-to-Markdown). That's why there's one link below that doesn't bring you up here. -->
 <!-- Here comes the table of content -->
 
 ## Table of Content<!-- omit in toc -->
