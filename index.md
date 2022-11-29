@@ -8,6 +8,6 @@
 I know this could be optimised significantly in terms of content.<lb>
 It's meant to be read like a book, so the progress is linear.<lb>
 This is done after 2 hours of training on Markdown.
-     </p>
-   </body>
+     p>
+   body>
 </html>
