@@ -4,8 +4,8 @@ I know this could be optimised significantly.
 It's meant to be read like a book, so the progress is linear.
 This is done after 2 hours of training in Markdown -->
 <!-- Example of title -->
-A Very Simple Introduction to Markdown<!-- omit in toc -->
-===
+# A Very Simple Introduction to Markdown<!-- omit in toc -->
+
 <!-- Unfortunately, "omit in toc" still makes it impossible to link [Link](#A-Very-Simple-Introduction-to-Markdown). That's why there's one link below that doesn't bring you up here. -->
 <!-- Here comes the table of content -->
 
