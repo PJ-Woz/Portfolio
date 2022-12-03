@@ -85,25 +85,31 @@ A Very Simple Introduction to Markdown<!-- omit in toc -->
 
 <!-- Example of paragraph of text with line break -->
 # Markdown - Introduction
-In this simple introduction, you'll learn the basics of Markdown formatting. It takes about two hours to master those basics.<p>
+In this simple introduction, you'll learn the basics of Markdown formatting. It takes about two hours to master those basics.
+
+
 Grab something to drink and a few snacks, for you're about to enter on a Markdown Journey!
 # Line Break  
-Here you'll learn how to create paragraphs with line break.<p>
+Here you'll learn how to create paragraphs with line break.
+
 ## What Is Line Break?
 When you read a text, paragraphs are those useful chunks of text that ease reading.  
 Every paragraph should consists of thoughts about one topic. Here, we talk about creating paragraphs in Markdown. 
 ### How to Insert Line Breaks
-There are several ways of creating paragraphs with line breaks in Markdown.<p> 
+There are several ways of creating paragraphs with line breaks in Markdown.
+
 #### HTML Tag
-To create a line break at the end of your line, use \<p>.<p>
-If you've ever used HTML, you'll surely remember the "\<p>" tag. In this tag, "p" stands for "paragraph".<p>
-It looks like this:<p>
+To create a line break at the end of your line, use \<p>.
+
+If you've ever used HTML, you'll surely remember the "\<p>" tag. In this tag, "p" stands for "paragraph".
+
+<p>It looks like this:</p>
 <code>It looks like this:\<p></code><p>
 
 #### Double ENTER
 To create a line break at the end of your line, you can use the ENTER key on your keaboard. Just press the ENTER key twice.
 
-You create another paragraph this way with an empty line in between different paragraphs you want to create. <p>
+You create another paragraph this way with an empty line in between different paragraphs you want to create.
 
 #### Double Space And ENTER
 To create a line break at the end of your line, you can use the space bar twice at the end of your line and then press the ENTER key.  
@@ -123,7 +129,8 @@ As in [Line Breaks](#how-to-insert-line-breaks), there are various ways of doing
 #### Asterisks
 **To create your text in bold**, use double asterisk, "\*\*".
 
-It looks like this:<p>
+It looks like this:
+
 <code>\*\*To create your text in bold\*\*, use double asterisk, "\*\*".</code>
 
 Remember to close the text in bold with double asterisks, or you'll end up like **this*. How did that happen? You'll learn [below](#italics).
@@ -132,7 +139,8 @@ Remember to close the text in bold with double asterisks, or you'll end up like 
 #### Underscore signs
 __To create your text in bold__, use double underscore sign, "\_\_".
 
-It looks like this:<p>
+It looks like this:
+
 <code>\_\_To create your text in bold__, use double underscore sign, "\_\_".</code>
 
 Remember to close the text in bold with double underscore sign, or you'll end up like __this_. How did that happen? You'll learn [below](#italics).
@@ -150,7 +158,8 @@ As in [Line Breaks](#how-to-insert-line-breaks) and [Bold](#how-to-insert-text-i
 #### Asterisks
 *To create your text in italics*, use a single asterisk, "\*".
 
-It looks like this:<p>
+It looks like this:
+
 <code>\*To create your text in italics\*, use a single asterisk, "\*"</code>
 
 Do you remember the note about closing the text in the [section on Bold](#asterisks) with double asterisks or else you end up like **this*? It happened because the text was interpreted as a text with an asterisk in front of it and highlighted with italics.
@@ -159,7 +168,8 @@ Do you remember the note about closing the text in the [section on Bold](#asteri
 #### Underscore signs
 _To create your text in italics_, use a single underscore sign, "\_".
 
-It looks like this:<p>
+It looks like this:
+
 <code>\_To create your text in italics_, use a single underscore sign, "\_".</code>
 
 Do you remember the note about closing the text in the [section on Bold](#underscore-signs) with double underscore signs or else you end up like __this_? It happened because the text was interpreted as a text with an underscore sign in front of it and highlighted with italics.
