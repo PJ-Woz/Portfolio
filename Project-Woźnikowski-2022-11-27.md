@@ -48,7 +48,7 @@ This is done after 2 hours of training in Markdown -->
 - [Images](#images)
   - [What Are Images?](#what-are-images)
     - [How to Insert Images](#how-to-insert-images)
-      - [Basic Link to an Image on a Disk](#basic-link-to-an-image-on-a-disk)
+      - [Basic Link to an Image in a Repository](#basic-link-to-an-image-in-a-repository)
       - [Displayed Image](#displayed-image)
       - [Link to an Image on the Internet](#link-to-an-image-on-the-internet)
       - [Link to a Displayed Image from the Internet](#link-to-a-displayed-image-from-the-internet)
@@ -290,7 +290,7 @@ Images are graphical representations of objects. You can add images to your text
 ### How to Insert Images
 Inserting an image is similar to creating [Links](#links). In fact, an image is a link to a file with an image.
 
-#### Basic Link to an Image on a Disk
+#### Basic Link to an Image in a Repository
 If you want to create a link to an image – but without displaying the image – in a document, use square brackets, "[" and "]", to give your link a name inside the square brackets. It doesn't have to be the name of the file you want to link to, just type anything you want.
 
 Then, right after the square brackets, use round brackets, "(", ")", to paste the name of the image file you want to link.
@@ -412,7 +412,7 @@ Here you'll learn how to show code.
 Code are instructions for your computer to do things with, like create [Line Breakes](#line-break), [Headers](#headers), [Bold](#bold), [Italics](#italics), [Links](#links) or [Images](#images).
 
 ### How to Quote Code
-Normally, the code is executed when it's typed. If you want to show a piece of code, you have to quote it appropriately.
+Normally, Markdown code is executed when it's written as-is. If you want to show a piece of code – e.g. Markdown code or code in any programming language – and not execute it, you have to quote it appropriately.
 
 In fact, pieces of code have been already quoted in this text!
 <!-- Example of equation or inline code -->
@@ -421,11 +421,11 @@ If you want to quote just a short piece of code, you can use inline code.
 
 To create inline code, place back tick symbol, "`", before the piece of code and end it again with this symbol.
 
-`# This is a sample header that won't be executed`
+This is an example of `**an inline Markdown code with _formatting_**` that won't be executed.
 
 It looks like this:
 
-<code>\`# This is a sample header that won't be executed`</code>
+<code>This is an example of \`\**an inline Markdown code with \_formatting_**` that won't be executed.</code>
 <!-- Example of a block of code -->
 
 #### Code Blocks
@@ -658,4 +658,6 @@ Congratulations! You can now create a table in no time!
 
 You've just covered Markdown basics!
 
-Now you can create such cool things, for example a guide to your favourite hobby!
+This guide was created in [Visual Studio Code](https://code.visualstudio.com/), so you've just seen what it's capable of. Mind you that some of the features here may work only in Visual Studio Code. However, Visual Studio Code isn't the only way to create texts in Markdown. You can use any text or code editor.
+
+So now you're more than ready to create cool texts with Markdown, for example a guide to your favourite hobby!
