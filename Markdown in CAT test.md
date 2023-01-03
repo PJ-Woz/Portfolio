@@ -3,6 +3,10 @@ How Markdown is Processed by Wordfast Pro 7 and Trados Studio 2022<!-- Omit in t
 
 <!-- This here is a comment. And I'd like to create a TOC below -->
 <!-- Use this: https://www.markdownguide.org/cheat-sheet/ -->
+<!-- Things I need to insert:
+- HTML tags, like <code></code>
+- (funny thing that markdown kinda works here)
+-  -->
 
 # Introduction
 

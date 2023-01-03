@@ -104,7 +104,8 @@ To create a line break at the end of your line, use \<p>.
 If you've ever used HTML, you'll surely remember the "\<p>" tag. In this tag, "p" stands for "paragraph".
 
 <p>It looks like this:</p>
-<code>It looks like this:\<p></code><p>
+
+<code>\<p>It looks like this:\<p></code>
 
 #### Double ENTER
 To create a line break at the end of your line, you can use the ENTER key on your keaboard. Just press the ENTER key twice.
@@ -392,16 +393,15 @@ In fact, you've already seen a quotation in the [What Are Images?](#what-are-ima
 ### How to Quote?
 To quote, use the greater-than symbol, ">", in front of the text you want to quote.
 > Don't believe everything you read on the internet just because there's a picture with a quote next to it,
->*<div style="text-align: right">Confucius</div>*
+>*Confucius*
 
 It looks like this:
 
 ```
 > Don't believe everything you read on the internet just because there's a picture with a quote next to it,<p>
->*<div style="text-align: right">Confucius</div>*
+>*Confucius*
 ```
-Note that the `<div style="text-align: right">Confucius</div>` part is not essential to quote. It only aligns the text to right.
-<!-- Podgląd w GitHubie nie wyrównuje do prawej, choć w VSC już tak -->
+
 ## Summary
 Congratulations! You can now quote in no time!
 
@@ -440,8 +440,7 @@ And this is a **sample** *text* formatting<p> that also [is not executed in Mark
 ```
 It looks like this:
 
-<code>
-```
+<code>```
 \# This is a sample header that won't be executed
 
 And this is a \*\*sample\*\* \*text\* formatting\<p> that also \[is not executed in Markdown](https://en.wikipedia.org/wiki/Markdown).
@@ -476,7 +475,7 @@ To turn off the execution of the code, place backslash, "\\", before the piece o
 
 It looks like this:
 
-<code>\\# This is a sample header that won't be executed</code>
+<code>\# This is a sample header that won't be executed</code>
 
 ## Summary
 Congratulations! You can now quote the code in no time!
@@ -647,6 +646,38 @@ It looks like this:
 | 4.  | Derek  | Dugdon       | 25  |
 ```
 When you're finished with your table, just press the ENTER key two times, so you can begin a new paragraph of text.
+
+### How to Create Alignment in a Table
+To align your text to left, centre or right in a table, you can use colon ":". Place colon to the left, on both sides or to the right of the minus symbol between the bar symbol.
+
+| No.  |  Name  |   Surname    |  Age |
+| :--- | :----: | :----------: | ---: |
+| 1.   | Andrew |   Appleby    |   20 |
+| 2.   | Barbra | Battlecester |   30 |
+| 3.   | Celine |  Countburg   |   22 |
+| 4.   | Derek  |    Dugdon    |   25 |
+
+It looks like this:
+```
+| No.  |  Name  |   Surname    |  Age |
+| :--- | :----: | :----------: | ---: |
+| 1.   | Andrew |   Appleby    |   20 |
+| 2.   | Barbra | Battlecester |   30 |
+| 3.   | Celine |  Countburg   |   22 |
+| 4.   | Derek  |    Dugdon    |   25 |
+```
+When you're finished with your table, just press the ENTER key two times, so you can begin a new paragraph of text.
+
+### Different Functions in a Table
+You can use different Markdown functions in a table if necessary.
+
+| No.  |  Name  |   Surname    |  Age |
+| :--- | :----: | :----------: | ---: |
+| 1.   | Jean |   Appleby    |   20 |
+| 2.   | Barbra | Battlecester |   30 |
+| 3.   | Celine |  Countburg   |   22 |
+| 4.   | Derek  |    Dugdon    |   25 |
+
 
 ## Summary
 Congratulations! You can now create a table in no time!
