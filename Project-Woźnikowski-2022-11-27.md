@@ -8,6 +8,14 @@ This is done after 2 hours of training in Markdown -->
 
 <!-- Unfortunately, "omit in toc" still makes it impossible to link [Link](#A-Very-Simple-Introduction-to-Markdown). That's why there's one link below that doesn't bring you up here. -->
 <!-- Here comes the table of content -->
+<!-- ADD: 
+- Footnotes
+- Definition list
+- Strikethrough
+- Task list
+- Emoji *if it works*
+- Subscript *if it works*
+- Superscript *if it works* -->
 
 ## Table of Content<!-- omit in toc -->
 
@@ -64,6 +72,7 @@ This is done after 2 hours of training in Markdown -->
     - [How to Quote Code](#how-to-quote-code)
       - [Inline Code](#inline-code)
       - [Code Blocks](#code-blocks)
+      - [Code Highlighting](#code-highlighting)
       - [Turning off the Code](#turning-off-the-code)
   - [Summary](#summary-7)
 - [Bullet List](#bullet-list)
@@ -79,6 +88,8 @@ This is done after 2 hours of training in Markdown -->
 - [Tables](#tables)
   - [What Is a Table?](#what-is-a-table)
     - [How to Create a Table](#how-to-create-a-table)
+    - [How to Create Alignment in a Table](#how-to-create-alignment-in-a-table)
+    - [Different Functions in a Table](#different-functions-in-a-table)
   - [Summary](#summary-10)
 - [Conclusion](#conclusion)
 
@@ -671,13 +682,15 @@ When you're finished with your table, just press the ENTER key two times, so you
 ### Different Functions in a Table
 You can use different Markdown functions in a table if necessary.
 
-| No.  |  Name  |   Surname    |  Age |
-| :--- | :----: | :----------: | ---: |
-| 1.   | Jean |   Appleby    |   20 |
-| 2.   | Barbra | Battlecester |   30 |
-| 3.   | Celine |  Countburg   |   22 |
-| 4.   | Derek  |    Dugdon    |   25 |
+| No.  |  Name  |   Role    | Portrait | Age |
+| :--- | :----: | :----------: | :---: | ---: |
+| 1.   | [**John <p>the Fearless**](https://en.wikipedia.org/wiki/John_the_Fearless) |   [*Duke of Burgundy*](https://en.wikipedia.org/wiki/Duke_of_Burgundy)    | ![John the Fearless](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flemish_School_-_Lille_-_John%2C_Duke_of_Burgundy.jpg/173px-Flemish_School_-_Lille_-_John%2C_Duke_of_Burgundy.jpg "John the Fearless")|   48 |
+| 2.   | [**Charles <p>the Bold**](https://en.wikipedia.org/wiki/Charles_the_Bold) | [*Duke of Burgundy*](https://en.wikipedia.org/wiki/Duke_of_Burgundy) | ![Charles the Bold](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Charles_the_Bold_1460.jpg/154px-Charles_the_Bold_1460.jpg "Charles the Bold") | 44 |
+| 3.   | [**Rudolf Carnap**](https://en.wikipedia.org/wiki/Rudolf_Carnap) |  `Logician`   | ![Rudolf Carnap](https://upload.wikimedia.org/wikipedia/en/5/50/Rudolf_Carnap_%281891_%E2%80%93_1970%29.jpg "By Rudolf Schmidt - Original publication: IN PRINT: PSA: Proceedings of the Biennial Meeting of the Philosophy of Science Association Vol. 1970Immediate source: https://www.jstor.org/stable/495750 (p.57), Fair use, https://en.wikipedia.org/w/index.php?curid=61287873") |  79 |
 
+As you can see, this table includes paragraphs, text in bold, in italic and links to websites, images and even inline quote.
+
+Note: creating a bullet or numbered list inside a table requires HTML tags, so it won't be covered here.
 
 ## Summary
 Congratulations! You can now create a table in no time!
