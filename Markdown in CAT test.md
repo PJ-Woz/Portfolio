@@ -118,7 +118,11 @@ The link to [a Markdown file in the repository is here](Project-Woźnikowski-202
 The link to [my website Translatorion.com is here](https://translatorion.com/).
 
 ### Links to YouTube
-The link to [![IMAGE ALT TEXT](http://img.youtube.com/vi/MRRmU_pOXnk/0.jpg)](http://www.youtube.com/watch?v=MRRmU_pOXnk "Video Title").
+The link to an embedded David Bowie video on YouTube is here:
+[![I am a DJ](http://img.youtube.com/vi/MRRmU_pOXnk/0.jpg)](http://www.youtube.com/watch?v=MRRmU_pOXnk "I am what I play").
+
+## Quotations
+
 
 
 ### Blockquote
