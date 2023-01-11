@@ -62,17 +62,24 @@ This will allow us to see which elements of Markdown syntax are – or are not �
 - _Wordfast Pro_
 - _Trados Studio 2022_
 
-## Basic Text Formatting
+## Basic Syntax
+This section contains basic Markdown syntax.
+
+It doesn't include a separate section on Headers, as three types of headers are used in this text.
 
 ### Bold
 
-**This text is in bold.**
-__Thix text is in bold.__
+**This text is in bold.**  
+__This text is in bold.__
+
+There are two sentences, because syntax for bold can be `**text**` or `__text__`.
 
 ### Italic
 
-*This text is in italic.*
+*This text is in italic.*  
 _This text is in italic._
+
+There are two sentences, because syntax for italic can be `*text*` or `_text_`.
 
 ### Strikethrough
 ~~This text is in strikethrough.~~
@@ -92,6 +99,14 @@ This is a sample unordered list:
 - Item 3
   - Subitem 3
   - Subitem 3
+
+### Combination of Basic Syntax
+
+1. *Item with **very important** text*
+   - this **simply ~~*wrong*~~**
+   - this is __very _important___ as well
+2. Another _**combination** of __bold__ and italic_
+   1. ~~this is *__bold__ but folly*, so I crossed it out~~
   
 ## Links
 Here we'll see how different types of links are interpreted by *Wordfast Pro* and *Trados Studio 2022*.
@@ -100,10 +115,10 @@ Here we'll see how different types of links are interpreted by *Wordfast Pro* an
 The link to section on [**Bold** is here](#bold).
 
 ### Links to Files
-The link to [a Markdown file in the repository is here](Project-Woźnikowski-2022-11-27.md).
+The link to [a Markdown file in the __repository__ is _here_](Project-Woźnikowski-2022-11-27.md).
 
 ### Links to Images
-1. The link to [an image in the repository is here](Images/IMG_20200401_210429.jpg).
+1. The link to [an image in the **repository** is *here*](Images/IMG_20200401_210429.jpg).
 2. The link to a displayed image in the repository is here:
    
    ![Shark](Images/IMG_20200401_210429.jpg)
@@ -119,18 +134,73 @@ The link to [my website Translatorion.com is here](https://translatorion.com/).
 
 ### Links to YouTube
 The link to an embedded David Bowie video on YouTube is here:
+
 [![I am a DJ](http://img.youtube.com/vi/MRRmU_pOXnk/0.jpg)](http://www.youtube.com/watch?v=MRRmU_pOXnk "I am what I play").
 
 ## Quotations
 
-
+This section contains various ways of quoting text or code.
 
 ### Blockquote
-> This is a quote
+
+> This is an example of a quote.
+> 
+> This quote ~~doesn't~~ also includes __basic syntax__ and a [*link*](https://en.wikipedia.org/wiki/Link,_West_Virginia).
+
+### Inline Code
+
+This is an example of a sentence with an inline code of a text in `**bold** and _italic_`.
+
+### Block Code
+
+Block code with:
+```
+1. __Bold__
+2. *Italic*
+   1. ~~Strikethrough~~
+3. > Quotation:
+   > - unordered list
+4. Link [to a very wise person](https://en.wikipedia.org/wiki/Arthur_Schopenhauer)
+```
+## Extended Syntax
+
+This section contains extended syntax.
+
+### Tables
+
+| No. | Name | Surname | Photo | Age |
+| :--- | :---: | :---: | --- | ---: |
+| 1. | [**John _the Fearless_**](https://en.wikipedia.org/wiki/John_the_Fearless) | [__Valois__](https://en.wikipedia.org/wiki/House_of_Valois) | ![John the Fearless](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flemish_School_-_Lille_-_John%2C_Duke_of_Burgundy.jpg/173px-Flemish_School_-_Lille_-_John%2C_Duke_of_Burgundy.jpg "John the Fearless")|   48 |
+| 2. | [**Philip *the Good***](https://en.wikipedia.org/wiki/Philip_the_Good) | [**Valois**](https://en.wikipedia.org/wiki/House_of_Valois) | ![Philip the Good](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Philip_the_good.jpg/170px-Philip_the_good.jpg "Philip the Good") | 70 |
+| 3. | [__Charles *the Bold*__](https://en.wikipedia.org/wiki/Charles_the_Bold) | [__Valois__](https://en.wikipedia.org/wiki/House_of_Valois) | ![Charles the Bold](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Charles_the_Bold_1460.jpg/154px-Charles_the_Bold_1460.jpg "Charles the Bold") | 44 |
+| 4. | [__Mary *of Burgundy*__](https://en.wikipedia.org/wiki/Mary_of_Burgundy) | [~~Valois~~](https://en.wikipedia.org/wiki/House_of_Valois) [**Habsburg**](https://en.wikipedia.org/wiki/House_of_Habsburg) | ![Mary of Burgundy](https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Mary_of_Burgundy_%281458%E2%80%931482%29%2C_by_Netherlandish_or_South_German_School_of_the_late_15th_Century.jpg/169px-Mary_of_Burgundy_%281458%E2%80%931482%29%2C_by_Netherlandish_or_South_German_School_of_the_late_15th_Century.jpg "Mary of Burgundy") | 25 |
+
+### Definition
+
+This is a sample definition.
+<dl>
+"Definition":
+<dt> a statement that explains the meaning of a word or phrase </dt>
+<dt> a description of the features and limits of something </dt>
+</dl>
+
+From [Cambridge Dictionary](https://dictionary.cambridge.org/pl/dictionary/english/definition).
+
+### Task List
+
+This is a sample task list:
+- [ ] Task **one**
+- [ ] Task *two*
+- [ ] _**Task** three_
+  - [ ] ___Subtask three.one___
+  - [ ] ~~Subtask three.two~~
+- [ ] *__Task four__*
+
+
 
 # HTML and Other Tags
 
 1. Paragraph
 2. Code
 3. Collapsed Section
-4. 
+4. Buttons
