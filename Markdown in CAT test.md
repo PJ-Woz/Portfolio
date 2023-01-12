@@ -14,6 +14,7 @@ How Markdown is Processed by Wordfast Pro 7 and Trados Studio 2022 <!-- omit in 
 - [Markdown Syntax](#markdown-syntax)
   - [General Information](#general-information)
   - [Basic Syntax](#basic-syntax)
+    - [Header](#header)
     - [Bold](#bold)
     - [Italic](#italic)
     - [Strikethrough](#strikethrough)
@@ -78,34 +79,34 @@ We'll learn soon enough.
 ## General Information
 
 I'll check the following Markdown syntax:
-1. basic syntax:
-   1. header
-   2. bold
-   3. italic
-   4. strikethrough
-   5. ordered list
-   6. unordered list
-2. links:
-   1. links to sections with headers
-   2. links to files
-   3. links to images
-   4. links to websites
-   5. links to YouTube
-3. quotations:
-   1. standard quotation
-   2. inline code
-   3. block code
-4. extended syntax:
-   1. tables
-   2. definition
-   3. task list
-   4. emoji
-   5. highlight
-   6. subscript
-   7. superscript
-   8. footnotes
-   9. ignoring Markdown formatting
-   10. comments to be omitted
+1. [Basic syntax](#basic-syntax):
+   1. [Header](#header)
+   2. [Bold](#bold)
+   3. [Italic](#italic)
+   4. [Strikethrough](#strikethrough)
+   5. [Ordered list](#ordered-list)
+   6. [Unordered list](#unordered-list)
+2. [Links](#links):
+   1. [Links to sections with headers](#links-to-sections-with-headers)
+   2. [Links to files](#links-to-files)
+   3. [Links to images](#links-to-images)
+   4. [Links to websites](#links-to-websites)
+   5. [Links to YouTube](#links-to-youtube)
+3. [Quotations](#quotations):
+   1. [Block quote](#blockquote)
+   2. [Inline code](#inline-code)
+   3. [Block code](#block-code)
+4. [Extended syntax](#extended-syntax):
+   1. [Tables](#tables)
+   2. [Definition](#definition)
+   3. [Task list](#task-list)
+   4. [Emoji](#emoji)
+   5. [Highlight](#highlight)
+   6. [Subscript](#subscript)
+   7. [Superscript](#superscript)
+   8. [Footnotes](#footnotes)
+   9. [Ignoring Markdown formatting](#ignoring-markdown-formatting)
+   10. [Comments to be omitted](#comments-to-be-omitted)
 
 ---
 
@@ -237,7 +238,7 @@ Syntax example: `![Shark](Images/IMG_20200401_210429.jpg "A Technical Writer Sha
 
 This section contains various ways of quoting text or code.
 
-### Blockquote
+### Block Quote
 
 > This is an example of a quote.
 > 
@@ -377,15 +378,15 @@ Syntax: `<!--- Comment --->`
 ## General Information
 
 I'll check the following HTML and other tags:
-1. Paragraph
-2. Code
-3. Collapsed Section
-4. Keyboard keys
-5. Definition
-6. Highlight
-7. Subscript
-8. Superscript
-9. Combination of tags and Markdown syntax
+1. [Paragraph](#paragraph)
+2. [Code](#code)
+3. [Collapsed Section](#collapsed-section)
+4. [Keyboard keys](#keyboard-keys)
+5. [Definition](#definition)
+6. [Highlight](#highlight-1)
+7. [Subscript](#subscript-1)
+8. [Superscript](#superscript-1)
+9. [Combination of tags and Markdown syntax](#combination-of-tags-and-markdown-syntax)
 
 ## Paragraph
 
