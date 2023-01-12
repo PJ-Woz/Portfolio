@@ -416,7 +416,7 @@ This is a normal section.
 | 1. | Agnes | **Aardvark** |
 | 2. | Burt | _Butterly_ |
 
-A very [important link](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+A very [important link](https://youtu.be/dQw4w9WgXcQ?t=43).
 
 </p>
 </details>
