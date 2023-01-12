@@ -1,4 +1,4 @@
-How Markdown is Processed by Wordfast Pro 7 and Trados Studio 2022<!-- Omit in toc -->
+How Markdown is Processed by Wordfast Pro 7 and Trados Studio 2022 <!-- omit in toc -->
 ===
 
 <!-- This here is a comment. And I'd like to create a TOC below -->
@@ -7,6 +7,55 @@ How Markdown is Processed by Wordfast Pro 7 and Trados Studio 2022<!-- Omit in t
 - HTML tags, like <code></code>
 - (funny thing that markdown kinda works here)
 -  -->
+
+- [Introduction](#introduction)
+  - [What is a CAT?](#what-is-a-cat)
+  - [Why is This Important?](#why-is-this-important)
+- [Markdown Syntax](#markdown-syntax)
+  - [General Information](#general-information)
+  - [Basic Syntax](#basic-syntax)
+    - [Bold](#bold)
+    - [Italic](#italic)
+    - [Strikethrough](#strikethrough)
+    - [Ordered List](#ordered-list)
+    - [Unordered List](#unordered-list)
+    - [Combination of Basic Syntax](#combination-of-basic-syntax)
+  - [Links](#links)
+    - [Links to Sections with Headers](#links-to-sections-with-headers)
+    - [Links to Files](#links-to-files)
+    - [Links to Images](#links-to-images)
+    - [Links to Websites](#links-to-websites)
+    - [Links to YouTube](#links-to-youtube)
+    - [Syntax for Links](#syntax-for-links)
+  - [Quotations](#quotations)
+    - [Blockquote](#blockquote)
+    - [Inline Code](#inline-code)
+    - [Block Code](#block-code)
+  - [Extended Syntax](#extended-syntax)
+    - [Tables](#tables)
+    - [Task List](#task-list)
+    - [Emoji](#emoji)
+    - [Highlight](#highlight)
+    - [Subscript](#subscript)
+    - [Superscript](#superscript)
+    - [Footnotes](#footnotes)
+    - [Ignoring Markdown Formatting](#ignoring-markdown-formatting)
+    - [Comments to Be Omitted](#comments-to-be-omitted)
+  - [Summary](#summary)
+- [HTML and Other Tags](#html-and-other-tags)
+  - [General Information](#general-information-1)
+  - [Paragraph](#paragraph)
+    - [Code](#code)
+    - [Collapsed Section](#collapsed-section)
+    - [Keyboard keys](#keyboard-keys)
+    - [Definition](#definition)
+  - [Highlight](#highlight-1)
+  - [Subscript](#subscript-1)
+  - [Superscript](#superscript-1)
+  - [Combination of Tags and Markdown Syntax](#combination-of-tags-and-markdown-syntax)
+  - [Summary](#summary-1)
+- [Conclusion](#conclusion)
+- [Sources](#sources)
 
 # Introduction
 
