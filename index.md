@@ -1,12 +1,14 @@
 Portfolio
 ===
 ## [My first text in Markdown](./Project-Woźnikowski-2022-11-27.md)
-This is a homework I did during Technical Communication post-grad studies at Vistula University.  
-I know this could be optimised significantly in terms of content.  
-It's meant to be read like a book, so the progress is linear.  
-This is done after 2 hours of training on Markdown.
+<p>This is a homework I did during Technical Communication post-grad studies at Vistula University.</p>
+<p>I know this could be optimised significantly in terms of content.</p>
+<p>It's meant to be read like a book, so the progress is linear.  </p>
+<p>This is done after 2 hours of training on Markdown.</p>
+
 ---
-## [A Markdown text for testing Wordfast Pro and Trados Studio 2022](./Markdown in CAT test.md)
+
+## [A Markdown text for testing Wordfast Pro and Trados Studio 2022](./Markdown-in-CAT-test.md)
 I wrote this file to test how two Computer-Aided Translation programs – Wordfast Pro 7 and Trados 2022 – read Markdown files.
 
 **What is a CAT?**
