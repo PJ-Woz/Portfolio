@@ -70,7 +70,7 @@ There are **many** diferent CATs. Two of them are *Wordfast Pro* and *Trados Stu
 Markdown files have unusual formatting. The syntax for __bold__ can be for example: `__bold__`.  
 The question arises: Will a CAT know which symbol is part of Markdown syntax and which is used as part of the text?
 
-And to make it even spicier, I'll also include a few HTML tags to see how they are read in combination with Markdown syntax.
+And to make it even spicier, I also included a few HTML tags to see how they are read in combination with Markdown syntax.
 
 We'll learn soon enough.
 
