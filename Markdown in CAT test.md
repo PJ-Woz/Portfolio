@@ -45,10 +45,10 @@ How Markdown is Processed by Wordfast Pro 7 and Trados Studio 2022 <!-- omit in 
 - [HTML and Other Tags](#html-and-other-tags)
   - [General Information](#general-information-1)
   - [Paragraph](#paragraph)
-    - [Code](#code)
-    - [Collapsed Section](#collapsed-section)
-    - [Keyboard keys](#keyboard-keys)
-    - [Definition](#definition)
+  - [Code](#code)
+  - [Collapsed Section](#collapsed-section)
+  - [Keyboard keys](#keyboard-keys)
+  - [Definition](#definition)
   - [Highlight](#highlight-1)
   - [Subscript](#subscript-1)
   - [Superscript](#superscript-1)
@@ -59,7 +59,7 @@ How Markdown is Processed by Wordfast Pro 7 and Trados Studio 2022 <!-- omit in 
 
 # Introduction
 
-<p>This file is created to test how two Computer-Aided Translation programs – Wordfast Pro 7 and Trados 2022 – read markdown files.</p>
+<p>I wrote this file to test how two Computer-Aided Translation programs – Wordfast Pro 7 and Trados 2022 – read Markdown files.</p>
 
 ## What is a CAT?
 [Computer-Aided Translation](https://en.wikipedia.org/wiki/Computer-assisted_translation) software (usually known as CAT) is a program that helps translators translate various files, including Markdown *.md files.
@@ -77,13 +77,14 @@ We'll learn soon enough.
 
 ## General Information
 
-I'll group Markdown syntax into:
+I'll check the following Markdown syntax:
 1. basic syntax:
-   1. bold
-   2. italic
-   3. strikethrough
-   4. ordered list
-   5. unordered list
+   1. header
+   2. bold
+   3. italic
+   4. strikethrough
+   5. ordered list
+   6. unordered list
 2. links:
    1. links to sections with headers
    2. links to files
@@ -108,14 +109,23 @@ I'll group Markdown syntax into:
 
 ---
 
-This will allow us to see which elements of Markdown syntax are – or are not – read by two CATs:
+This will allow us to see which elements of Markdown syntax are – or **are not** – read by two CATs:
 - _Wordfast Pro_
 - _Trados Studio 2022_
 
 ## Basic Syntax
 This section contains basic Markdown syntax.
 
-It doesn't include a separate section on Headers, as three types of headers are used in this text.
+### Header
+
+I've used three types of headers in this text.
+
+Syntax:
+```
+# Header 1
+## Header 2
+### Header 3
+```
 
 ### Bold
 
@@ -124,7 +134,7 @@ __This text is in bold.__
 
 Syntax:
 - `**This text is in bold.**`
-- `This text is in bold.`
+- `__This text is in bold.__`
 
 ### Italic
 
@@ -133,7 +143,7 @@ _This text is in italic._
 
 Syntax:
 - `*This text is in italic.*`
-- `This text is in italic.`
+- `_This text is in italic._`
 
 ### Strikethrough
 ~~This text is in strikethrough.~~
@@ -209,7 +219,7 @@ The link to [a Markdown file in the __repository__ is _here_](Project-Woźnikows
    ![Shark](Images/IMG_20200401_210429.jpg "A Technical Writer Shark")
 4. The link to a displayed image from the internet:
    
-   ![Cieszyn](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/2012_Powiat_cieszy%C5%84ski%2C_Cieszyn%2C_Rynek%2C_Fontanna_%C5%9Bw._Floriana_02.jpg/310px-2012_Powiat_cieszy%C5%84ski%2C_Cieszyn%2C_Rynek%2C_Fontanna_%C5%9Bw._Floriana_02.jpg)
+   ![Cieszyn](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/2012_Powiat_cieszy%C5%84ski%2C_Cieszyn%2C_Rynek%2C_Fontanna_%C5%9Bw._Floriana_02.jpg/310px-2012_Powiat_cieszy%C5%84ski%2C_Cieszyn%2C_Rynek%2C_Fontanna_%C5%9Bw._Floriana_02.jpg "Cieszyn")
 
 ### Links to Websites
 The link to [my website Translatorion.com is here](https://translatorion.com/).
@@ -252,7 +262,7 @@ Syntax:
 
 ### Block Code
 
-Block code with:
+This is an example of block code with:
 ```
 1. __Bold__
 2. *Italic*
@@ -261,6 +271,9 @@ Block code with:
    > - unordered list
 4. Link [to a very wise person](https://en.wikipedia.org/wiki/Arthur_Schopenhauer)
 ```
+
+Syntax: ` ```code``` `
+
 ## Extended Syntax
 
 This section contains extended syntax.
@@ -274,7 +287,7 @@ This section contains extended syntax.
 | 3. | [__Charles *the Bold*__](https://en.wikipedia.org/wiki/Charles_the_Bold) | [__Valois__](https://en.wikipedia.org/wiki/House_of_Valois) | ![Charles the Bold](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Charles_the_Bold_1460.jpg/154px-Charles_the_Bold_1460.jpg "Charles the Bold") | 44 |
 | 4. | [__Mary *of Burgundy*__](https://en.wikipedia.org/wiki/Mary_of_Burgundy) | [~~Valois~~](https://en.wikipedia.org/wiki/House_of_Valois) [**Habsburg**](https://en.wikipedia.org/wiki/House_of_Habsburg) | ![Mary of Burgundy](https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Mary_of_Burgundy_%281458%E2%80%931482%29%2C_by_Netherlandish_or_South_German_School_of_the_late_15th_Century.jpg/169px-Mary_of_Burgundy_%281458%E2%80%931482%29%2C_by_Netherlandish_or_South_German_School_of_the_late_15th_Century.jpg "Mary of Burgundy") | 25 |
 
-Syntax:
+Syntax (part):
 ```
 | No. | Name | Surname | Photo | Age |
 | :--- | :---: | :---: | --- | ---: |
@@ -291,7 +304,7 @@ This is a sample task list:
   - [ ] ~~Subtask three.two~~
 - [ ] *__Task four__*
 
-Syntax: `- [ ]`
+Syntax: `- [ ] task name`
 
 ### Emoji
 
@@ -344,6 +357,8 @@ A short list of ignored Markdown formatting:
 - \~~strikethrough~~
 - \`\*code\*`
 
+Syntax: \\\*\\\*bold**
+
 ### Comments to Be Omitted
 
 Below this sentence there's a comment to be omitted by Markdown processors:
@@ -361,7 +376,7 @@ Syntax: `<!--- Comment --->`
 
 ## General Information
 
-I'll group HTML and other tags into the following:
+I'll check the following HTML and other tags:
 1. Paragraph
 2. Code
 3. Collapsed Section
@@ -379,14 +394,14 @@ I'll group HTML and other tags into the following:
 
 Syntax: `<p>Lorem ipsum</p>`
 
-### Code
+## Code
 
 This is a sample code:
 <code>\*\*bold** \_italic_</code>
 
 Syntax: `<code>\*\*bold** \_italic_</code>`
 
-### Collapsed Section
+## Collapsed Section
 
 This is a normal section.
 
@@ -405,7 +420,7 @@ A very [important link](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
 </p>
 </details>
 
-Syntax:
+Syntax (part):
 ```
 <details><summary>Unroll another section</summary>
 <p>
@@ -416,7 +431,7 @@ Syntax:
 </details>
 ```
 
-### Keyboard keys
+## Keyboard keys
 
 Use <kbd>W</kbd>, <kbd>S</kbd>, <kbd>A</kbd>, <kbd>D</kbd> keys to move your character in a video game.
 
@@ -424,7 +439,7 @@ And never touch the <kbd>Windows</kbd> key!
 
 Syntax: `<kbd>Windows</kbd>`
 
-### Definition
+## Definition
 
 This is a sample definition.
 <dl>
@@ -460,7 +475,7 @@ Syntax: `<sub>text</sub>`
 
 This is a sample HTML <sup>superscript</sup>. <sup>Not all</sup> Markdown processors interpret this superscript.
 
-Syntax: `^text^`
+Syntax: `<sup>text</sup>`
 
 ##  Combination of Tags and Markdown Syntax
 
@@ -484,6 +499,8 @@ I've written this Markdown file in Visual Studio Code that doesn't show all Mark
  - subscript
  - superscript
  - footnotes
+
+Also, not all Markdown syntax or HTML tags work in Github viewer.
 
 # Sources
 
