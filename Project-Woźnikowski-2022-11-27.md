@@ -472,10 +472,10 @@ alert(s);
 It looks like this:
 
 ```
-\```javascript
+```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
-\```
+```
 ```
 
 #### Turning off the Code
