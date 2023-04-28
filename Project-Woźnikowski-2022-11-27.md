@@ -436,7 +436,9 @@ This is an example of `**an inline Markdown code with _formatting_**` that won't
 
 It looks like this:
 
+```
 `This is an example of `**an inline Markdown code with _formatting_**` that won't be executed.`
+```
 <!-- Example of a block of code -->
 
 #### Code Blocks
@@ -452,10 +454,11 @@ And this is a **sample** *text* formatting<p> that also [is not executed in Mark
 It looks like this:
 
 ```
-\# This is a sample header that won't be executed
+\```
+# This is a sample header that won't be executed
 
 And this is a \*\*sample\*\* \*text\* formatting\<p> that also \[is not executed in Markdown](https://en.wikipedia.org/wiki/Markdown).
-\
+\```
 ```
 
 
@@ -472,10 +475,10 @@ alert(s);
 It looks like this:
 
 ```
-```javascript
+\```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
-```
+\```
 ```
 
 #### Turning off the Code
