@@ -30,4 +30,4 @@ And to make it even spicier, I also included a few HTML tags to see how they are
 
 ## About me
 
-Learn more about me [here](./README.md)
+Learn more about me [here](./ABOUT.md)
