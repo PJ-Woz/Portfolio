@@ -490,7 +490,7 @@ To turn off the execution of the code, place backslash, "\\", before the piece o
 
 It looks like this:
 
-`# This is a sample header that won't be executed`
+`\# This is a sample header that won't be executed`
 
 ## Summary
 Congratulations! You can now quote the code in no time!
