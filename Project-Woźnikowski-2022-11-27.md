@@ -116,7 +116,7 @@ If you've ever used HTML, you'll surely remember the "\<p>" tag. In this tag, "p
 
 <p>It looks like this:</p>
 
-<code>\<p>It looks like this:\<p></code>
+`<p>It looks like this:<p>`
 
 #### Double ENTER
 To create a line break at the end of your line, you can use the ENTER key on your keaboard. Just press the ENTER key twice.
@@ -143,7 +143,7 @@ As in [Line Breaks](#how-to-insert-line-breaks), there are various ways of doing
 
 It looks like this:
 
-<code>\*\*To create your text in bold\*\*, use double asterisk, "\*\*".</code>
+`**To create your text in bold\*\*, use double asterisk, "**".`
 
 Remember to close the text in bold with double asterisks, or you'll end up like **this*. How did that happen? You'll learn [below](#italics).
 <!-- Add link -->
@@ -153,7 +153,7 @@ __To create your text in bold__, use double underscore sign, "\_\_".
 
 It looks like this:
 
-<code>\_\_To create your text in bold__, use double underscore sign, "\_\_".</code>
+`__To create your text in bold__, use double underscore sign, "__".`
 
 Remember to close the text in bold with double underscore sign, or you'll end up like __this_. How did that happen? You'll learn [below](#italics).
 <!-- Add link -->
@@ -172,7 +172,7 @@ As in [Line Breaks](#how-to-insert-line-breaks) and [Bold](#how-to-insert-text-i
 
 It looks like this:
 
-<code>\*To create your text in italics\*, use a single asterisk, "\*"</code>
+`*To create your text in italics\*, use a single asterisk, "*"`
 
 Do you remember the note about closing the text in the [section on Bold](#asterisks) with double asterisks or else you end up like **this*? It happened because the text was interpreted as a text with an asterisk in front of it and highlighted with italics.
 <!-- Add link -->
@@ -182,7 +182,7 @@ _To create your text in italics_, use a single underscore sign, "\_".
 
 It looks like this:
 
-<code>\_To create your text in italics_, use a single underscore sign, "\_".</code>
+`_To create your text in italics_, use a single underscore sign, "_".`
 
 Do you remember the note about closing the text in the [section on Bold](#underscore-signs) with double underscore signs or else you end up like __this_? It happened because the text was interpreted as a text with an underscore sign in front of it and highlighted with italics.
 <!-- Add link -->
@@ -259,7 +259,7 @@ For example, this is [a link to the website of my company, Translatorion](https:
 It looks like this:
 
 
-<code>For example, this is \[a link to the website of my company, Translatorion]\(https://translatorion.com/language/en/translatorion/).</code>
+`For example, this is [a link to the website of my company, Translatorion](https://translatorion.com/language/en/translatorion/).`
 <!-- Example of link to another file -->
 
 #### Other Files
@@ -273,7 +273,7 @@ This is a link to [the alpha version of this manual](Praca-2022-11-20.md) that w
 
 It looks like this:
 
-<code>This is a link to \[the alpha version of this manual](Praca-2022-11-20.md) that was created during classes.</code>
+`This is a link to [the alpha version of this manual](Praca-2022-11-20.md) that was created during classes.`
 
 #### Other Sections
 If you want to create a link to another section – marked by a header – in a document, use square brackets, "[" and "]", to give your link a name inside the square brackets. It doesn't have to be the name of the header you want to link to, just type anything you want.
@@ -286,7 +286,7 @@ This is [a link to the Links section](#links) in this document.
 
 It looks like this:
 
-<code>This is \[a link to the Links section](#links) in this document.</code>
+`This is [a link to the Links section](#links) in this document.`
 
 ## Summary
 Congratulations! You can now create links in no time!
@@ -313,7 +313,7 @@ This is [a link to an image of a shark](./Images/IMG_20200401_210429.jpg).
 
 It looks like this:
 
-<code>This is \[a link to an image of a shark](./Images/IMG_20200401_210429.jpg).</code>
+`This is [a link to an image of a shark](./Images/IMG_20200401_210429.jpg).`
 
 #### Displayed Image
 If you want to create a link to an image – and display the image – in a document, use square brackets, "[" and "]", to give your link a name inside the square brackets. It doesn't have to be the name of the file you want to link to, just type anything you want.
@@ -327,7 +327,7 @@ This is a displayed image of a shark:
 <!--- Tu się zorientowałem, że w Visual Studio Code wielkość liter w ścieżce dostępu nie robi różnicy, ale w podglądzie w githubie już tak --->
 It looks like this:
 
-<code>\!\[a link to an image of a shark](./Images/IMG_20200401_210429.jpg)</code>
+`![a link to an image of a shark](./Images/IMG_20200401_210429.jpg)`
 
 #### Link to an Image on the Internet
 If you want to create a link to an image that's on the internet – but without displaying the image – in a document, use square brackets, "[" and "]", to give your link a name inside the square brackets. It doesn't have to be the name of the file you want to link to, just type anything you want.
@@ -338,7 +338,7 @@ This is [a link to an image on the internet](https://upload.wikimedia.org/wikipe
 
 It looks like this:
 
-<code>This is \[a link to an image on the internet](https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Cieszyn_Rynek2.jpg/1280px-Cieszyn_Rynek2.jpg).</code>
+`This is [a link to an image on the internet](https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Cieszyn_Rynek2.jpg/1280px-Cieszyn_Rynek2.jpg).`
 
 #### Link to a Displayed Image from the Internet
 If you want to create a link to an image that's on the internet – and display the image – in a document, use square brackets, "[" and "]", to give your link a name inside the square brackets. It doesn't have to be the name of the file you want to link to, just type anything you want.
@@ -350,8 +350,8 @@ This is a displayed image from the internet.
 
 It looks like this:
 
-<code>This is a displayed image from the internet.
-\!\[a link to an image on the internet](https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Cieszyn_Rynek2.jpg/1280px-Cieszyn_Rynek2.jpg)</code>
+`This is a displayed image from the internet.
+![a link to an image on the internet](https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Cieszyn_Rynek2.jpg/1280px-Cieszyn_Rynek2.jpg)`
 
 <!-- Example of an image with hover text -->
 <!-- Remember to add a screenshot with this hover text - doesn't work -->
@@ -369,7 +369,7 @@ This is a displayed image of a shark:
 
 It looks like this:
 
-<code>\!\[a link to an image of a shark](./Images/IMG_20200401_210429.jpg "Technical Writer Shark")</code>
+`![a link to an image of a shark](./Images/IMG_20200401_210429.jpg "Technical Writer Shark")`
 
 #### Link to a Gif
 If you like gifs – animated images – you can also link them! They will move in the preview. You can also add a hover text to them.
@@ -386,7 +386,7 @@ This is a displayed gif file:
 
 It looks like this:
 
-<code>\!\[displayed gif](./Images/cat-computer.gif "Is This What Technical Writing Is Like?")</code>
+`![displayed gif](./Images/cat-computer.gif "Is This What Technical Writing Is Like?")`
 
 ## Summary
 Congratulations! You can now add images in no time!
@@ -436,7 +436,7 @@ This is an example of `**an inline Markdown code with _formatting_**` that won't
 
 It looks like this:
 
-<code>This is an example of \`\**an inline Markdown code with \_formatting_**` that won't be executed.</code>
+`This is an example of `**an inline Markdown code with _formatting_**` that won't be executed.`
 <!-- Example of a block of code -->
 
 #### Code Blocks
@@ -451,12 +451,13 @@ And this is a **sample** *text* formatting<p> that also [is not executed in Mark
 ```
 It looks like this:
 
-<code>```
+```
 \# This is a sample header that won't be executed
 
 And this is a \*\*sample\*\* \*text\* formatting\<p> that also \[is not executed in Markdown](https://en.wikipedia.org/wiki/Markdown).
-\```
-</code>
+\
+```
+
 
 <!-- Example of code highlighting -->
 #### Code Highlighting
@@ -470,12 +471,12 @@ alert(s);
 ```
 It looks like this:
 
-<code>
-```javascript
+```
+\```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
+\```
 ```
-</code>
 
 #### Turning off the Code
 You may be wondering by now how the code – even the [Inline Code](#inline-code) and [Code Blocks](#code-blocks) – have been shown here without executing it.
@@ -486,7 +487,7 @@ To turn off the execution of the code, place backslash, "\\", before the piece o
 
 It looks like this:
 
-<code>\# This is a sample header that won't be executed</code>
+`# This is a sample header that won't be executed`
 
 ## Summary
 Congratulations! You can now quote the code in no time!
