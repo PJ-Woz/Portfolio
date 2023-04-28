@@ -10,12 +10,12 @@
   - philosophy of language – Ludwig Wittgenstein and modal logic
   - Warhammer 40,000 – I read novels, paint miniatures, and play Kill Team
   - music – electronic, sampled, classic rock, classical, sky is the limit!
-- &#128214 I’m currently learning:
+- &#128214; I’m currently learning:
   - technical communication @ Vistula University
     - Markdown
     - GitHub
   - plain language in Polish and English
-- &#128222 How to reach me:
+- &#128222; How to reach me:
   - My businness page: [translatorion.com](https://translatorion.com/language/en/translatorion/)
     - Professional blog on translation I write with my wife: [English](https://translatorion.com/language/en/blog-en/), [Polish](https://translatorion.com/blog/)
   - My email: [pawel@translatorion.com](mailto:pawel@translatorion.com)
