@@ -688,16 +688,16 @@ You can use different Markdown functions in a table if necessary.
 
 | No.  |  Name  |   Role    | Portrait | Age |
 | :--- | :----: | :----------: | :---: | ---: |
-| 1.   | [**John <p>the Fearless**](https://en.wikipedia.org/wiki/John_the_Fearless) |   [*Duke of Burgundy*](https://en.wikipedia.org/wiki/Duke_of_Burgundy)    | ![John the Fearless](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flemish_School_-_Lille_-_John%2C_Duke_of_Burgundy.jpg/173px-Flemish_School_-_Lille_-_John%2C_Duke_of_Burgundy.jpg "John the Fearless")|   48 |
-| 2.   | [**Charles <p>the Bold**](https://en.wikipedia.org/wiki/Charles_the_Bold) | [*Duke of Burgundy*](https://en.wikipedia.org/wiki/Duke_of_Burgundy) | ![Charles the Bold](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Charles_the_Bold_1460.jpg/154px-Charles_the_Bold_1460.jpg "Charles the Bold") | 44 |
+| 1.   | [**John the Fearless**](https://en.wikipedia.org/wiki/John_the_Fearless) |   [*Duke of Burgundy*](https://en.wikipedia.org/wiki/Duke_of_Burgundy)    | ![John the Fearless](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flemish_School_-_Lille_-_John%2C_Duke_of_Burgundy.jpg/173px-Flemish_School_-_Lille_-_John%2C_Duke_of_Burgundy.jpg "John the Fearless")|   48 |
+| 2.   | [**Charles the Bold**](https://en.wikipedia.org/wiki/Charles_the_Bold) | [*Duke of Burgundy*](https://en.wikipedia.org/wiki/Duke_of_Burgundy) | ![Charles the Bold](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Charles_the_Bold_1460.jpg/154px-Charles_the_Bold_1460.jpg "Charles the Bold") | 44 |
 | 3.   | [**Rudolf Carnap**](https://en.wikipedia.org/wiki/Rudolf_Carnap) |  `Logician`   | ![Rudolf Carnap](https://upload.wikimedia.org/wikipedia/en/5/50/Rudolf_Carnap_%281891_%E2%80%93_1970%29.jpg "By Rudolf Schmidt - Original publication: IN PRINT: PSA: Proceedings of the Biennial Meeting of the Philosophy of Science Association Vol. 1970Immediate source: https://www.jstor.org/stable/495750 (p.57), Fair use, https://en.wikipedia.org/w/index.php?curid=61287873") |  79 |
 
 It looks like this:
 ```
 | No.  |  Name  |   Role    | Portrait | Age |
 | :--- | :----: | :----------: | :---: | ---: |
-| 1.   | [**John <p>the Fearless**](https://en.wikipedia.org/wiki/John_the_Fearless) |   [*Duke of Burgundy*](https://en.wikipedia.org/wiki/Duke_of_Burgundy)    | ![John the Fearless](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flemish_School_-_Lille_-_John%2C_Duke_of_Burgundy.jpg/173px-Flemish_School_-_Lille_-_John%2C_Duke_of_Burgundy.jpg "John the Fearless")|   48 |
-| 2.   | [**Charles <p>the Bold**](https://en.wikipedia.org/wiki/Charles_the_Bold) | [*Duke of Burgundy*](https://en.wikipedia.org/wiki/Duke_of_Burgundy) | ![Charles the Bold](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Charles_the_Bold_1460.jpg/154px-Charles_the_Bold_1460.jpg "Charles the Bold") | 44 |
+| 1.   | [**John the Fearless**](https://en.wikipedia.org/wiki/John_the_Fearless) |   [*Duke of Burgundy*](https://en.wikipedia.org/wiki/Duke_of_Burgundy)    | ![John the Fearless](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flemish_School_-_Lille_-_John%2C_Duke_of_Burgundy.jpg/173px-Flemish_School_-_Lille_-_John%2C_Duke_of_Burgundy.jpg "John the Fearless")|   48 |
+| 2.   | [**Charles the Bold**](https://en.wikipedia.org/wiki/Charles_the_Bold) | [*Duke of Burgundy*](https://en.wikipedia.org/wiki/Duke_of_Burgundy) | ![Charles the Bold](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Charles_the_Bold_1460.jpg/154px-Charles_the_Bold_1460.jpg "Charles the Bold") | 44 |
 | 3.   | [**Rudolf Carnap**](https://en.wikipedia.org/wiki/Rudolf_Carnap) |  `Logician`   | ![Rudolf Carnap](https://upload.wikimedia.org/wikipedia/en/5/50/Rudolf_Carnap_%281891_%E2%80%93_1970%29.jpg "By Rudolf Schmidt - Original publication: IN PRINT: PSA: Proceedings of the Biennial Meeting of the Philosophy of Science Association Vol. 1970Immediate source: https://www.jstor.org/stable/495750 (p.57), Fair use, https://en.wikipedia.org/w/index.php?curid=61287873") |  79 |
 ```
 
