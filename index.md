@@ -22,7 +22,7 @@ I wrote this file to test how two Computer-Aided Translation programs – Wordfa
 [Computer-Aided Translation](https://en.wikipedia.org/wiki/Computer-assisted_translation) software (usually known as CAT) is a program that helps translators translate various files, including Markdown \*.md files.
 There are **many** diferent CATs. Two of them are *Wordfast Pro* and *Trados Studio 2022*.
 
-**Why is This Important?**
+**Why is this important?**
 
 Markdown files have unusual formatting. The syntax for __bold__ can be for example: `__bold__`.  
 The question arises: Will a CAT know which symbol is part of Markdown syntax and which is used as part of the text?
