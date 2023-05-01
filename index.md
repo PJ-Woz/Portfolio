@@ -45,7 +45,7 @@ The project consists of:
 - an HTML5 output
 - a PDF output
 
-The minimum requirements of the project were:
+The minimum specification of the project were:
 - 12 topics
 - 6 links
 - 3 images
