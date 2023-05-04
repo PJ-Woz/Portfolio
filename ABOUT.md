@@ -12,10 +12,26 @@
   - Warhammer 40,000 – I read novels, paint miniatures, and play Kill Team
   - music – electronic, sampled, classic rock, classical, sky is the limit!
 
-**&#128214; I’m currently learning:**
-  - technical communication @ Vistula University
+**&#128213; I've learned @ [technical communication studies (Vistula University)](https://vistula.edu.pl/kierunki-studiow/komunikacja-techniczna):**
+  - languages:
     - Markdown
+    - HTML and CSS basics
+    - XML basics
+  - environments:
     - GitHub
+    - Confluence
+    - Jira
+  - software:
+    - MadCap Flare
+    - Oxygen XML Editor
+    - memoQ
+    - Visual Studio Code
+  - other:
+    - API documentation basics
+    - Docs-as-Code
+    - Static site generators
+
+**&#128214; I’m currently learning:**
   - plain language in Polish and English
 
 **&#128222; How to reach me:**
