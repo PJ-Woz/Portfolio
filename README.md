@@ -10,10 +10,25 @@
   - philosophy of language – Ludwig Wittgenstein and modal logic
   - Warhammer 40,000 – I read novels, paint miniatures, and play Kill Team
   - music – electronic, sampled, classic rock, classical, sky is the limit!
-- :book: I’m currently learning:
-  - technical communication @ Vistula University
+- :closed_book: I've learned @ technical communication studies @ [Vistula University](https://vistula.edu.pl/kierunki-studiow/komunikacja-techniczna):
+  - languages:
     - Markdown
+    - HTML and CSS basics
+    - XML basics
+  - environments:
     - GitHub
+    - Confluence
+    - Jira
+  - software:
+    - MadCap Flare
+    - Oxygen XML Editor
+    - memoQ
+    - Visual Studio Code
+  - other:
+    - API documentation basics
+    - Docs-as-Code
+    - Static site generators
+- :open_book: I’m currently learning:
   - plain language in Polish and English
 - :phone: How to reach me:
   - My businness page: [translatorion.com](https://translatorion.com/language/en/translatorion/)
