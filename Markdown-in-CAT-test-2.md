@@ -572,7 +572,7 @@ Syntax:
          <p>
             Exercise will end in <span class="js-timeout">00:40</span>.
          </p>
-            <script src="timer.js"></script>
+            <script src="https://github.com/PJ-Woz/Portfolio/blob/a78cce29de95431d2d59696e57376c4449ad02c3/timer.js"></script>
             <button id="js-startTimer">Start Countdown</button>
             <button id="js-resetTimer">Stop &amp; Reset</button>
       </div>
@@ -613,9 +613,9 @@ Syntax:
          <p>
             Exercise will end in <span class="js-timeout">00:40</span>.
          </p>
+            <script src="https://github.com/PJ-Woz/Portfolio/blob/a78cce29de95431d2d59696e57376c4449ad02c3/timer.js"></script>
             <button id="js-startTimer">Start Countdown</button>
             <button id="js-resetTimer">Stop &amp; Reset</button>
-            <script src="./timer.js"></script>
       </div>
     </body>
 </html>
