@@ -569,6 +569,12 @@ Syntax:
          <p>
             This is just a plain <em>HTML</em> text without any style.
          </p>
+         <p>
+            Exercise will end in <span class="js-timeout">00:40</span>.
+         </p>
+            <button id="js-startTimer">Start Countdown</button>
+            <button id="js-resetTimer">Stop &amp; Reset</button>
+            <script src="./timer.js"></script>
       </div>
     </body>
 </html>
@@ -604,6 +610,12 @@ Syntax:
          <p>
             This is just a plain <em>HTML</em> text without any style.
          </p>
+         <p>
+            Exercise will end in <span class="js-timeout">00:40</span>.
+         </p>
+            <button id="js-startTimer">Start Countdown</button>
+            <button id="js-resetTimer">Stop &amp; Reset</button>
+            <script src="./timer.js"></script>
       </div>
     </body>
 </html>
