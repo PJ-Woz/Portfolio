@@ -584,7 +584,7 @@ Syntax:
 
 ## Summary
 
-I'm <p class="info">aware that placing Markdown syntax inside HTML tags</p>, like `<p>paragraph</p>`, turns them off in some processors.
+<p class="info">I'm aware that placing Markdown syntax inside HTML tags</p>, like `<p>paragraph</p>`, turns them off in some processors.</p>
 
 # Conclusion
 
