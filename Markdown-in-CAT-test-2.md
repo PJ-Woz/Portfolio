@@ -555,6 +555,31 @@ Syntax:
             font-style: italic;
         }
     </style>
+   <script>
+var interval;
+function countdown() {
+  clearInterval(interval);
+  interval = setInterval( function() {
+      var timer = $('.js-timeout').html();
+      timer = timer.split(':');
+      var minutes = timer[0];
+      var seconds = timer[1];
+      seconds -= 1;
+      if (minutes < 0) return;
+      else if (seconds < 0 && minutes != 0) {
+          minutes -= 0;
+          seconds = 40;
+      }
+      else if (seconds < 10 && length.seconds != 2) seconds = '0' + seconds;      $('.js-timeout').html(minutes + ':' + seconds);
+      if (minutes == 0 && seconds == 0) clearInterval(interval);
+  }, 1000);
+} $('#js-startTimer').click(function () {   $('.js-timeout').text("00:40");
+  countdown();
+}); $('#js-resetTimer').click(function () {  $('.js-timeout').text("00:40");
+  clearInterval(interval);
+});
+   </script>
+
    </head>
     <body>
       <div class="jotaro">
@@ -572,7 +597,6 @@ Syntax:
          <p>
             Exercise will end in <span class="js-timeout">00:40</span>.
          </p>
-            <script src="https://github.com/PJ-Woz/Portfolio/blob/a78cce29de95431d2d59696e57376c4449ad02c3/timer.js"></script>
             <button id="js-startTimer">Start Countdown</button>
             <button id="js-resetTimer">Stop &amp; Reset</button>
       </div>
@@ -613,8 +637,7 @@ Syntax:
          <p>
             Exercise will end in <span class="js-timeout">00:40</span>.
          </p>
-            <script src="https://github.com/PJ-Woz/Portfolio/blob/a78cce29de95431d2d59696e57376c4449ad02c3/timer.js"></script>
-            <button id="js-startTimer">Start Countdown</button>
+            <button id="js-startTimer">Start Mountdown</button>
             <button id="js-resetTimer">Stop &amp; Reset</button>
       </div>
     </body>
