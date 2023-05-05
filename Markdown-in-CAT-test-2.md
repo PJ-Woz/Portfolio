@@ -542,6 +542,7 @@ Syntax:
 
 <html>
    <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <style>
          .jotaro {
             background-color: #4f8866;
@@ -555,31 +556,6 @@ Syntax:
             font-style: italic;
         }
     </style>
-   <script>
-var interval;
-function countdown() {
-  clearInterval(interval);
-  interval = setInterval( function() {
-      var timer = $('.js-timeout').html();
-      timer = timer.split(':');
-      var minutes = timer[0];
-      var seconds = timer[1];
-      seconds -= 1;
-      if (minutes < 0) return;
-      else if (seconds < 0 && minutes != 0) {
-          minutes -= 0;
-          seconds = 40;
-      }
-      else if (seconds < 10 && length.seconds != 2) seconds = '0' + seconds;      $('.js-timeout').html(minutes + ':' + seconds);
-      if (minutes == 0 && seconds == 0) clearInterval(interval);
-  }, 1000);
-} $('#js-startTimer').click(function () {   $('.js-timeout').text("00:40");
-  countdown();
-}); $('#js-resetTimer').click(function () {  $('.js-timeout').text("00:40");
-  clearInterval(interval);
-});
-   </script>
-
    </head>
     <body>
       <div class="jotaro">
@@ -599,6 +575,7 @@ function countdown() {
          </p>
             <button id="js-startTimer">Start Countdown</button>
             <button id="js-resetTimer">Stop &amp; Reset</button>
+            <script src="./timer.js"></script>
       </div>
     </body>
 </html>
@@ -607,6 +584,7 @@ Syntax:
 ```html
 <html>
    <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <style>
          .jotaro {
             background-color: #4f8866;
@@ -637,8 +615,9 @@ Syntax:
          <p>
             Exercise will end in <span class="js-timeout">00:40</span>.
          </p>
-            <button id="js-startTimer">Start Mountdown</button>
+            <button id="js-startTimer">Start Countdown</button>
             <button id="js-resetTimer">Stop &amp; Reset</button>
+            <script src="./timer.js"></script>
       </div>
     </body>
 </html>
