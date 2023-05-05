@@ -59,4 +59,4 @@ The minimum requirements of the project were:
 
 ## About me
 
-Learn more about me [here](./ABOUT.md).
+[Learn](./Markdown-in-CAT-test-2.md) more about me [here](./ABOUT.md).
