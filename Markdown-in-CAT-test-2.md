@@ -574,7 +574,7 @@ Syntax:
          </p>
             <button id="js-startTimer">Start Countdown</button>
             <button id="js-resetTimer">Stop &amp; Reset</button>
-            <script src="./timer.js"></script>
+            <script src="timer.js"></script>
       </div>
     </body>
 </html>
