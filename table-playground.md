@@ -8,7 +8,7 @@
     }
     </style>
     
-    
+</html>    
 
 
 | <p class="kekistan">Lp.</p> | <p class="kekistan">Imię</p> | Nazwisko | Zdjęcie | Wiek |
@@ -18,4 +18,3 @@
 | 3\. | [__Karol *Śmiały*__](https://en.wikipedia.org/wiki/Charles_the_Bold) | [__Walezjusz__](https://en.wikipedia.org/wiki/House_of_Valois) | ![Karol Śmiały](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Charles_the_Bold_1460.jpg/154px-Charles_the_Bold_1460.jpg "Karol Śmiały") | 44 |
 | 4\. | [__Maria *Burgundzka*__](https://en.wikipedia.org/wiki/Mary_of_Burgundy) | [~~Walezjusz~~](https://en.wikipedia.org/wiki/House_of_Valois) [**Habsburg**](https://en.wikipedia.org/wiki/House_of_Habsburg) | ![Maria Burgundzka](https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Mary_of_Burgundy_%281458%E2%80%931482%29%2C_by_Netherlandish_or_South_German_School_of_the_late_15th_Century.jpg/169px-Mary_of_Burgundy_%281458%E2%80%931482%29%2C_by_Netherlandish_or_South_German_School_of_the_late_15th_Century.jpg "Maria Burgundzka") | 25 |
 
-</html>
