@@ -45,7 +45,7 @@ The manual includes:
 - Introduction
 - The descriptions of the three cats: Boromir, Kalisia, and Loki
 - Cat care
-- Contact detals
+- Contact details
 
 The manual consists of:
 - an HTML5 output published through GitHub Pages
