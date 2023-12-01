@@ -3,7 +3,7 @@
     - I translate primarily technical texts – installation, operation, and maintenance manuals, guides, and handbooks
   - I live in [Cieszyn](https://en.wikipedia.org/wiki/Cieszyn), [Poland](https://en.wikipedia.org/wiki/Poland)
   - This is my portfolio of things I created in my free time and during Technical Communication post-grad studies at Vistula University in 2022/2023
-- **:heart: I love:**
+- **❤️ I love:**
   - learning foreign languages – Norwegian, German, French, and Latin
   - physical activities – mountain hiking, HIIT, and functional training
   - history – the Middle Ages and World War II
@@ -28,9 +28,9 @@
     - API documentation basics
     - Docs-as-Code
     - Static site generators
-- **:open_book: I’m currently learning:**
+- **📖 I’m currently learning:**
   - plain language in Polish and English
-- **:phone: How to reach me:**
+- **☎️ How to reach me:**
   - My businness page: [translatorion.com](https://translatorion.com/language/en/translatorion/)
     - Professional blog on translation I write with my wife: [English](https://translatorion.com/language/en/blog-en/), [Polish](https://translatorion.com/blog/)
   - My email: [pawel@translatorion.com](mailto:pawel@translatorion.com)
