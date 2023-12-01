@@ -35,7 +35,7 @@
   - plain language in Polish and English
 
 **&#128222; How to reach me:**
-  - My businness page: [translatorion.com](https://translatorion.com/language/en/translatorion/)
+  - My business page: [translatorion.com](https://translatorion.com/language/en/translatorion/)
     - Professional blog on translation I write with my wife: [English](https://translatorion.com/language/en/blog-en/), [Polish](https://translatorion.com/blog/)
   - My email: [pawel@translatorion.com](mailto:pawel@translatorion.com)
   - My LinkedIn: [Paweł Woźnikowski](https://www.linkedin.com/in/pawel-woznikowski/)

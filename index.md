@@ -1,39 +1,19 @@
 Portfolio
 ===
 
-## [My first text in Markdown](./Project-Woźnikowski-2022-11-27.md)
+## [How do CATs process Markdown files?](https://pj-woz.github.io/cats-vs-markdown/)
 
-This is a homework I did during Technical Communication post-grad studies at Vistula University.
+This is a graduation project from my Technical Communication post-grad studies at Vistula University.
 
-I know this could be optimised significantly in terms of content.
+This project is a test of how three Computer-Aided Translation programs – Phrase, Wordfast Pro 7, and Trados 2022 – open and save Markdown files. As part of the comparison, a Markdown test file was prepared, in which many Markdown tags were used in combination with HTML and even an uncomplicated JavaScript.
 
-It's meant to be read like a book, so the progress is linear.
-
-This was done after 2 hours of training on Markdown.
-
----
-
-## [A Markdown text for testing Wordfast Pro and Trados Studio 2022](./Markdown-in-CAT-test.md)
-
-I wrote this file to test how two Computer-Aided Translation programs – Wordfast Pro 7 and Trados 2022 – read Markdown files.
-
-**What is a CAT?**
-
-[Computer-Aided Translation](https://en.wikipedia.org/wiki/Computer-assisted_translation) software (usually known as CAT) is a program that helps translators translate various files, including Markdown \*.md files.
-There are **many** diferent CATs. Two of them are *Wordfast Pro* and *Trados Studio 2022*.
-
-**Why is this important?**
-
-Markdown files have unusual formatting. The syntax for __bold__ can be for example: `__bold__`.  
-The question arises: Will a CAT know which symbol is part of Markdown syntax and which is used as part of the text?
-
-And to make it even spicier, I also included a few HTML tags to see how they are read in combination with Markdown syntax.
+The project was written completely in Markdown and published with Just the Docs theme.
 
 ---
 
 ## [MadCap Flare Project — Functional HIIT Session](https://pj-woz.github.io/MCF-Zaliczenie/)
 
-This is another homework from Technical Communication post-grad studies at Vistula University. This is an advanced functional [High-Intensity Interval Training](https://en.wikipedia.org/wiki/High-intensity_interval_training) session.
+This is a project from Technical Communication post-grad studies at Vistula University. This is an advanced functional [High-Intensity Interval Training](https://en.wikipedia.org/wiki/High-intensity_interval_training) session.
 
 The training includes:
 - Introduction
@@ -42,7 +22,7 @@ The training includes:
 - Cooldown
 
 The project consists of:
-- an HTML5 output
+- an HTML5 output published through GitHub Pages
 - a PDF output
 
 The minimum requirements of the project were:
@@ -57,6 +37,30 @@ The minimum requirements of the project were:
 
 ---
 
+## [Instruction manual to my three cats (Polish)](https://pj-woz.github.io/instrukcja-kotki/)
+
+This instruction manual was created when I still had a MadCap Flare licence, which I received during my Technical Communication post-grad studies at Vistula University. This manual helps my friends take care of my cats.
+
+The manual includes:
+- Introduction
+- The descriptions of the three cats: Boromir, Kalisia, and Loki
+- Cat care
+- Contact detals
+
+The manual consists of:
+- an HTML5 output published through GitHub Pages
+- a PDF output
+
+The functionalities used in the manual:
+- Snippets
+- Variables
+- Conditional text
+- Favicon
+- Internal and external links
+- Images
+
+---
+
 ## About me
 
-Learn more about me [here](./ABOUT.md).
+[Learn more about me](./ABOUT.md).
