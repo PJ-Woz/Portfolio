@@ -61,6 +61,12 @@ The functionalities used in the manual:
 
 ---
 
+## [How to Order a Coffee at My Wife's Lessons]()
+
+This is a flow chart (prepared with Lucidchart) that shows the decision tree for ordering a coffee. Apart from translating, editing, and reviewing, my wife teaches English and Spanish and I brew coffee for her students.
+
+---
+
 ## About me
 
 [Learn more about me](./ABOUT.md).
